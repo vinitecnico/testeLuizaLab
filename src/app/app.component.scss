@@ -1,0 +1,45 @@
+.body-main {
+    padding-left: 0;
+
+    .btn-buscar {
+        padding-top: 1px;
+        padding-bottom: 5px;
+        margin-top: -4px;
+    }
+
+    span {
+        margin-right: 10px;
+    }
+
+    input {
+        margin-right: 10px;
+        width: 90px;
+        padding: 2px;
+    }
+}
+
+.body-search {
+    padding: 32px 64px 64px 32px;
+
+    .container-fluid {
+        padding-left: 0;
+    }
+
+    i {
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .map {
+        margin-top: 1%;
+        agm-map {            
+            height: 260px;
+          }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h4 {
+        font-size: 17px;
+    }
+}
